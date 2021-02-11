@@ -10,13 +10,12 @@ import Greeting from './Home/Greeting';
 // import Contact from './components/contact/Contact';
 import Skills from './components/Skills/Skills';
 import Footer from './components/Footer/Footer';
-import Experience from './components/experience/Experience';
 // import Splash from './components/Footer/splash/Splash';
 import EducationComponent from '/home/bhubesh/portfolio-two/src/components/education/EducationComponent.js'
 import Projects from './components/projects/Projects';
 
 import "react-bootstrap/dist/react-bootstrap.min.js";
-import ExperienceAccordion from './components/experienceAccordion/ExperienceAccordion';
+
 function App() {
   return (
     <div>
@@ -29,9 +28,6 @@ function App() {
             <br></br>
             <Skills></Skills>
             {/* <br></br> */}
-            {/* <Contact></Contact> */}
-            {/* <Experience></Experience> */}
-            {/* <ExperienceAccordion></ExperienceAccordion> */}
             <br></br>
             <EducationComponent></EducationComponent>
             <br></br>
